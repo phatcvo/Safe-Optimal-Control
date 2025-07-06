@@ -10,7 +10,6 @@ draft: false
 # Table of contents
 
 - [Table of contents](#table-of-contents)
-- [Deep Reinforcement Learning](#deep-reinforcement-learning)
 - [Optimal Control:](#optimal-control)
   - [Dynamic Programming](#dynamic-programming)
   - [Linear Programming](#linear-programming)
@@ -61,10 +60,6 @@ draft: false
   - [Architecture and applications](#architecture-and-applications)
 
 ![RL Diagram](https://raw.githubusercontent.com/phatcvo/phatcv/master/content/blog/img/RL.svg)
-
-# Deep Reinforcement Learning
-
-* **`DRL`** [Deep Reinforcement Learning](https://phatcvo.github.io/Lec-DRL)
   
 # Optimal Control:
 
