@@ -40,11 +40,26 @@ The built site will be in the `docs/` directory.
 
 ### GitHub Pages Deployment
 
-The site automatically deploys to GitHub Pages when you push to the main branch. Make sure to:
+1. **Push to GitHub**:
 
-1. Enable GitHub Pages in your repository settings
-2. Set the source to "GitHub Actions"
-3. The workflow will automatically build and deploy the site
+   ```bash
+   git init
+   git add .
+   git commit -m "Initial commit: Quarto website for Safe-Optimal Control survey"
+   git branch -M master
+   git remote add origin https://github.com/phatcvo/Safe-Optimal-Control.git
+   git push -u origin master
+   ```
+
+2. **Enable GitHub Pages**:
+   - Go to your repository settings on GitHub
+   - Navigate to "Pages" section
+   - Set source to "GitHub Actions"
+   - The workflow will automatically build and deploy
+
+3. **Your site will be live at**: `https://phatcvo.github.io/Safe-Optimal-Control`
+
+The site automatically deploys to GitHub Pages when you push to the master branch.
 
 ## Structure
 
