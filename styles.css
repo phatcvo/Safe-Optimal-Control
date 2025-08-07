@@ -1,0 +1,111 @@
+/* Custom styles for the Safe-Optimal Control Survey */
+
+/* Main content styling */
+.main-content {
+  line-height: 1.6;
+  font-size: 1.1em;
+}
+
+/* Algorithm/method name styling */
+strong code {
+  background-color: #f8f9fa;
+  padding: 2px 6px;
+  border-radius: 3px;
+  border: 1px solid #e9ecef;
+  font-weight: bold;
+  color: #0d6efd;
+}
+
+/* Video and GitHub link styling */
+a[href*="youtube.com"]:before {
+  content: "🎞️ ";
+  margin-right: 4px;
+}
+
+a[href*="github.com"]:before {
+  content: "⚡ ";
+  margin-right: 4px;
+}
+
+/* Paper links styling */
+ul li a {
+  text-decoration: none;
+  color: #0d6efd;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+  color: #0a58ca;
+}
+
+/* Section headers */
+h2 {
+  color: #2c3e50;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 8px;
+  margin-top: 2em;
+}
+
+h3 {
+  color: #34495e;
+  margin-top: 1.5em;
+}
+
+/* Callout boxes */
+.callout-note {
+  background-color: #e8f4fd;
+  border-left: 4px solid #3498db;
+  padding: 1em;
+  margin: 1em 0;
+  border-radius: 4px;
+}
+
+/* Bibliography styling */
+ul li {
+  margin-bottom: 0.8em;
+}
+
+/* Code blocks */
+pre {
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+/* Figure captions */
+.figure-caption {
+  text-align: center;
+  font-style: italic;
+  color: #6c757d;
+  margin-top: 0.5rem;
+}
+
+/* Navigation improvements */
+.navbar-brand {
+  font-weight: bold;
+}
+
+/* Footer styling */
+.page-footer {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e9ecef;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .main-content {
+    font-size: 1em;
+    line-height: 1.5;
+  }
+  
+  h1 {
+    font-size: 1.8em;
+  }
+  
+  h2 {
+    font-size: 1.4em;
+  }
+}

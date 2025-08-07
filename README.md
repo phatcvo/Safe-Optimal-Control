@@ -1,13 +1,100 @@
----
-title: "[Survey] Safe-Optimal Control for Motional Planning based on RL"
-date: 2022-05-18
-tags: ["RL", "Survey"]
-categories: ["Motion Planning"]
-description: "Safe-Optimal Control for Motional Planning based on Reinforcement Learning: Survey"
-draft: false
+# Safe-Optimal Control for Motion Planning based on RL
+
+[![Quarto Publish](https://github.com/phatcvo/Safe-Optimal-Control/actions/workflows/quarto-publish.yml/badge.svg)](https://github.com/phatcvo/Safe-Optimal-Control/actions/workflows/quarto-publish.yml)
+
+A comprehensive survey on Safe-Optimal Control for Motion Planning based on Reinforcement Learning, built as an interactive website using [Quarto](https://quarto.org/).
+
+🌐 **Live Site**: [https://phatcvo.github.io/Safe-Optimal-Control](https://phatcvo.github.io/Safe-Optimal-Control)
+
+## About
+
+This survey explores the critical challenge of developing control systems that are both optimal in performance and safe in operation. The integration of reinforcement learning with traditional control methods offers promising solutions for complex motion planning problems in uncertain environments.
+
+## Building the Site
+
+### Prerequisites
+
+- [Quarto](https://quarto.org/docs/get-started/) (version 1.4 or higher)
+- Python 3.8+ (optional, for Jupyter notebooks)
+- R (optional, for R-based content)
+
+### Local Development
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/phatcvo/Safe-Optimal-Control.git
+   cd Safe-Optimal-Control
+   ```
+
+2. **Preview the site locally**:
+   ```bash
+   quarto preview
+   ```
+
+3. **Build the site**:
+   ```bash
+   quarto render
+   ```
+
+The built site will be in the `docs/` directory.
+
+### GitHub Pages Deployment
+
+The site automatically deploys to GitHub Pages when you push to the main branch. Make sure to:
+
+1. Enable GitHub Pages in your repository settings
+2. Set the source to "GitHub Actions"
+3. The workflow will automatically build and deploy the site
+
+## Structure
+
+- `_quarto.yml` - Quarto project configuration
+- `index.qmd` - Homepage content
+- `*.qmd` - Content pages for each section
+- `img/` - Images and figures
+- `styles.css` - Custom CSS styling
+- `custom.scss` - Quarto theme customization
+- `.github/workflows/` - GitHub Actions for automatic deployment
+
+## Content Sections
+
+- **[Optimal Control](optimal-control.qmd)**: Dynamic programming, linear programming, tree-based planning
+- **[Safe Control](safe-control.qmd)**: Robust control, risk-averse control, constraint satisfaction
+- **[Game Theory](game-theory.qmd)**: Multi-agent interactions and strategic decision making
+- **[Sequential Learning](sequential-learning.qmd)**: Multi-armed bandits and optimization
+- **[Reinforcement Learning](reinforcement-learning.qmd)**: Comprehensive RL coverage
+- **[Learning from Demonstrations](learning-from-demonstrations.qmd)**: Imitation and inverse RL
+- **[Motion Planning](motion-planning.qmd)**: Search, sampling, and optimization approaches
+
+## Contributing
+
+Contributions are welcome! Please feel free to:
+
+- Open issues for corrections or suggestions
+- Submit pull requests for improvements
+- Add new papers or sections
+- Improve the website design
+
+## Citation
+
+```bibtex
+@misc{safe_optimal_control_survey_2022,
+  title={Safe-Optimal Control for Motion Planning based on Reinforcement Learning: Survey},
+  year={2022},
+  url={https://phatcvo.github.io/Safe-Optimal-Control},
+  note={Accessed: [Date]}
+}
+```
+
+## License
+
+This work is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
 ---
 
-# Table of contents
+# Original Content (Archive)
+
+## Table of contents
 
 - [Table of contents](#table-of-contents)
 - [Optimal Control:](#optimal-control)

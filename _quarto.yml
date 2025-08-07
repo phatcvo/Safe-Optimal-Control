@@ -1,0 +1,62 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Safe-Optimal Control for Motion Planning"
+  description: "A comprehensive survey of Safe-Optimal Control for Motion Planning based on Reinforcement Learning"
+  site-url: "https://phatcvo.github.io/Safe-Optimal-Control"
+  repo-url: "https://github.com/phatcvo/Safe-Optimal-Control"
+  repo-actions: [edit, issue]
+  
+  navbar:
+    title: "Safe-Optimal Control Survey"
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+    right:
+      - icon: github
+        href: "https://github.com/phatcvo/Safe-Optimal-Control"
+        aria-label: GitHub
+    
+  sidebar:
+    - title: "Contents"
+      contents:
+        - index.qmd
+        - section: "Control Methods"
+          contents:
+            - optimal-control.qmd
+            - safe-control.qmd
+            - game-theory.qmd
+        - section: "Learning Approaches"
+          contents:
+            - sequential-learning.qmd
+            - reinforcement-learning.qmd
+            - learning-from-demonstrations.qmd
+        - motion-planning.qmd
+        - about.qmd
+  
+  page-footer:
+    left: "© 2025 Safe-Optimal Control Survey"
+    right: 
+      - icon: github
+        href: "https://github.com/phatcvo/Safe-Optimal-Control"
+        aria-label: GitHub
+
+format:
+  html:
+    theme: 
+      - cosmo
+      - custom.scss
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    toc-location: right
+    number-sections: true
+    highlight-style: github
+    code-fold: false
+    mainfont: "Open Sans"
+    fontsize: 1.1em
+    linestretch: 1.5

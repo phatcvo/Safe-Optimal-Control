@@ -1,0 +1,76 @@
+---
+title: "About"
+---
+
+# About This Survey
+
+This website presents a comprehensive survey on **Safe-Optimal Control for Motion Planning based on Reinforcement Learning**. The survey covers the intersection of control theory, safety constraints, and reinforcement learning approaches for autonomous systems.
+
+## Scope
+
+The survey encompasses several key areas:
+
+- **Control Theory Foundations**: Classical optimal control methods, model predictive control, and control-theoretic approaches
+- **Safety Considerations**: Robust control, risk-aware planning, and constraint satisfaction in uncertain environments  
+- **Learning Approaches**: Reinforcement learning theory and applications, imitation learning, and inverse reinforcement learning
+- **Motion Planning**: Search-based, sampling-based, optimization-based, and reactive planning methods
+- **Multi-agent Systems**: Game theory and multi-agent reinforcement learning for coordinated control
+
+## Applications
+
+The methods covered in this survey have broad applications including:
+
+- **Autonomous Vehicles**: Self-driving cars, autonomous navigation, and intelligent transportation systems
+- **Robotics**: Manipulation, locomotion, and human-robot interaction
+- **Aerospace**: Unmanned aerial vehicles (UAVs), spacecraft control, and air traffic management  
+- **Industrial Systems**: Process control, manufacturing automation, and supply chain optimization
+- **Healthcare**: Medical robotics, assistive devices, and automated diagnosis systems
+
+## Methodology
+
+This survey follows a systematic approach:
+
+1. **Literature Review**: Comprehensive coverage of peer-reviewed papers, conference proceedings, and technical reports
+2. **Taxonomic Organization**: Structured categorization of methods by approach and application domain
+3. **Comparative Analysis**: Discussion of trade-offs, advantages, and limitations of different approaches
+4. **Future Directions**: Identification of open challenges and promising research directions
+
+## Target Audience
+
+This survey is designed for:
+
+- **Researchers** working on control theory, robotics, and machine learning
+- **Engineers** developing autonomous systems and intelligent control applications
+- **Graduate Students** studying control systems, robotics, or reinforcement learning
+- **Industry Practitioners** seeking to understand state-of-the-art methods for safe autonomous systems
+
+## Structure
+
+The survey is organized into the following main sections:
+
+- **[Optimal Control](optimal-control.qmd)**: Fundamental control theory and optimization methods
+- **[Safe Control](safe-control.qmd)**: Safety-critical control and robust planning approaches  
+- **[Reinforcement Learning](reinforcement-learning.qmd)**: RL theory, algorithms, and applications to control
+- **[Learning from Demonstrations](learning-from-demonstrations.qmd)**: Imitation learning and inverse RL
+- **[Motion Planning](motion-planning.qmd)**: Planning algorithms and their integration with learning
+
+## Citation
+
+If you find this survey useful in your research, please cite it as:
+
+```bibtex
+@misc{safe_optimal_control_survey_2022,
+  title={Safe-Optimal Control for Motion Planning based on Reinforcement Learning: Survey},
+  year={2022},
+  url={https://phatcvo.github.io/Safe-Optimal-Control},
+  note={Accessed: [Date]}
+}
+```
+
+## Contact
+
+For questions, suggestions, or corrections regarding this survey, please open an issue on the [GitHub repository](https://github.com/phatcvo/Safe-Optimal-Control).
+
+---
+
+*Last updated: August 2025*

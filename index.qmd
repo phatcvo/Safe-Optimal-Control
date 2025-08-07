@@ -1,0 +1,56 @@
+---
+title: "Safe-Optimal Control for Motion Planning based on RL"
+subtitle: "A Comprehensive Survey"
+date: "2022-05-18"
+author: "Research Survey"
+format: 
+  html:
+    toc: true
+    toc-depth: 3
+---
+
+# Safe-Optimal Control for Motion Planning based on Reinforcement Learning
+
+Welcome to this comprehensive survey on Safe-Optimal Control for Motion Planning based on Reinforcement Learning. This survey covers the intersection of control theory, safety constraints, and reinforcement learning approaches for autonomous systems.
+
+![Reinforcement Learning Overview](img/RL.svg){#fig-rl-overview fig-alt="Overview of Reinforcement Learning concepts and relationships"}
+
+## Overview
+
+This survey explores the critical challenge of developing control systems that are both optimal in performance and safe in operation. The integration of reinforcement learning with traditional control methods offers promising solutions for complex motion planning problems in uncertain environments.
+
+### Key Topics Covered
+
+- **[Optimal Control](optimal-control.qmd)**: Dynamic programming, linear programming, tree-based planning, control theory, and model predictive control
+- **[Safe Control](safe-control.qmd)**: Robust control, risk-averse control, value-constrained control, and uncertain dynamical systems
+- **[Game Theory](game-theory.qmd)**: Multi-agent interactions and strategic decision making
+- **[Sequential Learning](sequential-learning.qmd)**: Multi-armed bandits, contextual bandits, and black-box optimization
+- **[Reinforcement Learning](reinforcement-learning.qmd)**: Comprehensive coverage of RL theory and applications
+- **[Learning from Demonstrations](learning-from-demonstrations.qmd)**: Imitation learning and inverse reinforcement learning
+- **[Motion Planning](motion-planning.qmd)**: Search, sampling, optimization, and reactive approaches
+
+### Applications
+
+The methods and algorithms covered in this survey have wide-ranging applications including:
+
+- Autonomous driving and vehicle navigation
+- Robotics and manipulation
+- Aerospace and drone control
+- Industrial automation
+- Healthcare robotics
+
+### Navigation
+
+Use the sidebar to navigate through different sections of the survey. Each section provides detailed coverage of relevant algorithms, theoretical foundations, and practical applications.
+
+## Citation
+
+If you find this survey useful, please consider citing it in your work:
+
+```bibtex
+@article{safe_optimal_control_survey_2022,
+  title={Safe-Optimal Control for Motion Planning based on Reinforcement Learning: Survey},
+  year={2022},
+  url={https://phatcvo.github.io/Safe-Optimal-Control}
+}
+```
