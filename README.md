@@ -118,7 +118,19 @@ This work is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/
 
 ## Table of contents
 
-- [Table of contents](#table-of-contents)
+- [Safe-Optimal Control for Motion Planning based on RL](#safe-optimal-control-for-motion-planning-based-on-rl)
+  - [About](#about)
+  - [Building the Site](#building-the-site)
+    - [Prerequisites](#prerequisites)
+    - [Local Development](#local-development)
+    - [GitHub Pages Deployment](#github-pages-deployment)
+  - [Structure](#structure)
+  - [Content Sections](#content-sections)
+  - [Contributing](#contributing)
+  - [Citation](#citation)
+  - [License](#license)
+- [Original Content (Archive)](#original-content-archive)
+  - [Table of contents](#table-of-contents)
 - [Optimal Control:](#optimal-control)
   - [Dynamic Programming](#dynamic-programming)
   - [Linear Programming](#linear-programming)
