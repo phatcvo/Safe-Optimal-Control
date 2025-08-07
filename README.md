@@ -40,7 +40,7 @@ The built site will be in the `docs/` directory.
 
 ### GitHub Pages Deployment
 
-1. **Push to GitHub**:
+1. **Push to GitHub** (if starting fresh):
 
    ```bash
    git init
@@ -49,6 +49,15 @@ The built site will be in the `docs/` directory.
    git branch -M master
    git remote add origin https://github.com/phatcvo/Safe-Optimal-Control.git
    git push -u origin master
+   ```
+
+   **Or if you already have the repository cloned:**
+
+   ```bash
+   git checkout master
+   git add .
+   git commit -m "Update website content"
+   git push origin master
    ```
 
 2. **Enable GitHub Pages**:
