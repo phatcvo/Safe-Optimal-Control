@@ -13,7 +13,11 @@ website:
     title: "Safe-Optimal Control Survey"
     left:
       - href: "https://phatcvo.github.io"
-        text: Home
+        text: Main Site
+      - href: "https://phatcvo.github.io/Lec-DRL/"
+        text: Deep RL
+      - href: "https://phatcvo.github.io/Lec-MPC/"
+        text: MPC
       - href: about.qmd
         text: About
     right:
@@ -49,6 +53,7 @@ format:
   html:
     theme: 
       - cosmo
+      - assets/theme-sync.scss
       - custom.scss
     css: styles.css
     toc: true
