@@ -1,5 +1,5 @@
-/* Shared theme sync overrides */
-:root { --brand-primary:#2b6cb0; --brand-accent:#e07a15; }
+@import "theme-core";
+/*-- scss:rules --*/
 .navbar a.nav-link:hover { text-decoration: underline; }
 pre code { font-size: 0.9rem; }
 main h1, main h2, main h3 { scroll-margin-top: 5rem; }
