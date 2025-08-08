@@ -10,19 +10,48 @@ website:
   repo-actions: [edit, issue]
   
   navbar:
-    title: "Safe-Optimal Control Survey"
     left:
-      - href: "https://phatcvo.github.io"
-        text: Main Site
-      - href: "https://phatcvo.github.io/Lec-DRL/"
-        text: Deep RL
-      - href: "https://phatcvo.github.io/Lec-MPC/"
-        text: MPC
-      - href: about.qmd
-        text: About
+      - text: Main Site
+        href: https://phatcvo.github.io/
+      - text: Courses
+        menu:
+          - text: Deep RL
+            href: https://phatcvo.github.io/Lec-DRL/
+          - text: MPC
+            href: https://phatcvo.github.io/Lec-MPC/
+          - text: Safe-Optimal
+            href: https://phatcvo.github.io/Safe-Optimal-Control/
+      - text: Course
+        menu:
+          - text: Index
+            href: index.qmd
+          - text: Control Methods
+            href: optimal-control.qmd
+          - text: Safe Control
+            href: safe-control.qmd
+          - text: Game Theory
+            href: game-theory.qmd
+          - text: "Learning: Sequential"
+            href: sequential-learning.qmd
+          - text: "Learning: RL"
+            href: reinforcement-learning.qmd
+          - text: Learning from Demonstrations
+            href: learning-from-demonstrations.qmd
+          - text: Motion Planning
+            href: motion-planning.qmd
+          - text: About
+            href: about.qmd
+      - text: Resources
+        menu:
+          - text: GitHub Repo
+            href: https://github.com/phatcvo/Safe-Optimal-Control
+          - text: Deep RL Course
+            href: https://phatcvo.github.io/Lec-DRL/
+          - text: MPC Course
+            href: https://phatcvo.github.io/Lec-MPC/
     right:
       - icon: github
-        href: "https://github.com/phatcvo/Safe-Optimal-Control"
+        href: https://github.com/phatcvo/Safe-Optimal-Control
         aria-label: GitHub
     
   sidebar:
@@ -51,11 +80,10 @@ website:
 
 format:
   html:
-    theme: 
-      - cosmo
-      - assets/theme-sync.scss
-      - custom.scss
-    css: styles.css
+    theme:
+      light: cosmo
+      dark: cosmo
+    css: [assets/theme-sync.scss, custom.scss, styles.css]
     toc: true
     toc-depth: 3
     toc-location: right
