@@ -88,32 +88,6 @@ The site automatically deploys to GitHub Pages when you push to the master branc
 - **[Learning from Demonstrations](learning-from-demonstrations.qmd)**: Imitation and inverse RL
 - **[Motion Planning](motion-planning.qmd)**: Search, sampling, and optimization approaches
 
-## Contributing
-
-Contributions are welcome! Please feel free to:
-
-- Open issues for corrections or suggestions
-- Submit pull requests for improvements
-- Add new papers or sections
-- Improve the website design
-
-## Citation
-
-```bibtex
-@misc{safe_optimal_control_survey_2022,
-  title={Safe-Optimal Control for Motion Planning based on Reinforcement Learning: Survey},
-  year={2022},
-  url={https://phatcvo.github.io/Safe-Optimal-Control},
-  note={Accessed: [Date]}
-}
-```
-
-## License
-
-This work is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
-
----
-
 # Original Content (Archive)
 
 ## Table of contents
